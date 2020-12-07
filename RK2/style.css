@@ -1,0 +1,16 @@
+table {
+    background: white;  /* Цвет фона таблицы */
+    color: black;   /* Цвет текста */
+    /* border: 1px solid black;   /* Внешние границы */
+    /* border-collapse: collapse; */
+}
+td, th {
+    background: white; /* Цвет фона ячеек */
+    /* border: 1px solid black; */  /* Границы */
+}
+.color {
+    background: rgb(105, 208, 255);
+    color:white;
+}
+ol li:nth-child(2n+1) {background-color: rgb(243, 99, 99);}
+ol li:nth-child(2n) {background-color: rgb(139, 198, 253);}
